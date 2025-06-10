@@ -6,6 +6,7 @@ persist.vendor.EnableP3ColorSpace u:object_r:vendor_camera_p3enable_prop:s0
 persist.vendor.XDRVersion u:object_r:vendor_camera_xdrversion_prop:s0
 persist.vendor.cameraid.totalnum u:object_r:vendor_camera_prop:s0
 vendor.camera.sensor. u:object_r:vendor_camera_sensor_prop:s0
+vendor.camera.skip_unconfigure.packagelist                 u:object_r:vendor_camera_prop:s0
 
 # Displayfeature
 init.svc.vendor.displayfeatureaidl-hal u:object_r:vendor_displayfeature_prop:s0
