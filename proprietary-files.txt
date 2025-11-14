@@ -2505,7 +2505,6 @@ vendor/etc/display/sm8750_sr_3x_y640x384.dlc
 
 # Dolby
 odm/bin/hw/dvs-aidl-service
-odm/etc/dolby/dax-default.xml
 odm/etc/init/dvs-aidl-service.rc
 odm/etc/surfaceflinger/dolby_vision.cfg
 odm/etc/vintf/manifest/dvs-aidl-service.xml
