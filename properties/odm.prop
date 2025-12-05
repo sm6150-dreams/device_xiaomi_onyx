@@ -186,6 +186,7 @@ debug.video.codec.capability.apilevel=2
 debug.video.codec.capability.support=14333
 debug.video.recovery.killenable=true
 persist.vendor.camera.cameramind.supported=true
+ro.odm.build.media_performance_class=30
 
 # Mitee
 ro.vendor.mitee_support
