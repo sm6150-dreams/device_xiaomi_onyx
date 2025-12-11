@@ -272,13 +272,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     ApertureOverlayOnyx \
     CarrierConfigOverlayOnyx \
+    CustomSettingsOverlayOnyx \
     SystemUIOverlayOnyx \
     TelephonyOverlayOnyx \
     FrameworkOverlayOnyx \
     FrameworkOverlayOnyxGL \
-    LineageDialerOverlayOnyx \
-    LineageSDKOverlayOnyx \
-    LineageSettingsOverlayOnyx \
     NfcOverlayOnyx \
     SettingsOverlayOnyx \
     SettingsProviderOverlayOnyx \
