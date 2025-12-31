@@ -4,6 +4,16 @@ persist.vendor.cne.feature=1
 # HWUI
 debug.hwui.skia_atrace_enabled=false
 
+# mistOS
+ro.mist.display=1280 x 2772, 120 hz
+ro.mist.battery=6500mAh
+ro.mist.soc=Snapdragon® 8s Gen 4
+ro.mist.camera=50MP + 8MP
+ro.mist.front=20MP
+ro.mist.platform=SM8735
+ro.mist.screen=6.83' QHD+
+ro.mist.device.name=Poco F7
+
 # IMS
 persist.data.iwlan=1
 persist.data.iwlan.enable=true

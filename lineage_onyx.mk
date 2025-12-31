@@ -7,16 +7,23 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common clover stuff.
-$(call inherit-product, vendor/clover/config/common_full_phone.mk)
+# Inherit some common mistOS stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Build
-CLOVER_MAINTAINER := stahed
+MISTOS_MAINTAINER := stahed
+WITH_GMS := true
+TARGET_USES_PICO_GAPPS := true
+TARGET_ENABLE_BLUR := true
+TARGET_SUPPORTS_QUICK_TAP := true
+BYPASS_CHARGE_SUPPORTED := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := false
+TARGET_HAS_UDFPS := true
 
 # Inherit from onyx device
 $(call inherit-product, device/xiaomi/onyx/device.mk)
 
-PRODUCT_NAME := clover_onyx
+PRODUCT_NAME := lineage_onyx
 PRODUCT_DEVICE := onyx
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
