@@ -116,8 +116,8 @@ PRODUCT_PACKAGES += \
     android.hardware.boot-service.qti \
     android.hardware.boot-service.qti.recovery
 
-# Call the BCR setup
-$(call inherit-product-if-exists, vendor/bcr/bcr.mk)
+# Bcr
+$(call inherit-product, vendor/extras/bcr/bcr.mk)
 
 # Camera
 PRODUCT_COPY_FILES += \
