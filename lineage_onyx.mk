@@ -13,7 +13,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Build
 MISTOS_MAINTAINER := stahed
 WITH_GMS := true
-TARGET_USES_PICO_GAPPS := true
+TARGET_USES_PICO_GAPPS := false
 TARGET_ENABLE_BLUR := true
 TARGET_SUPPORTS_QUICK_TAP := true
 BYPASS_CHARGE_SUPPORTED := true
