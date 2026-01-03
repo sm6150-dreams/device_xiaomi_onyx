@@ -39,7 +39,6 @@ ro.vendor.audio.videobox.switch=true
 ro.vendor.audio.voice.change.support=true
 ro.vendor.audio.voice.change.version=2
 ro.vendor.audio.voice.change.youme.support=true
-ro.vendor.dolby.dax.version=DAX3_3.12.0.8_r1
 vendor.audio.adm.buffering.ms=2
 vendor.audio.c2.preferred=true
 vendor.audio.compress_capture.aac=true
